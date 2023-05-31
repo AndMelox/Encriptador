@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Challenge Encriptador & Desencriptador</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <script src="./Encriptar.js">  </script>
+  </head>
+<body>
+  <header>
+    <h1><img src="alura.png" alt="alura"> Encriptador y Desencriptador</h1>
+  </header>
+
+  <main>
+    <div class="contenedor-mensaje">
+      <div class="caja-msjD">
+        <input type="text" id="mensaje" name="mensaje" placeholder="Escribe el texto aquí...">
+        <button onclick="copiarTexto()" class="btn-copiar"></button>
+      </div>
+      <div class="caja-msjE">
+        <input type="text" id="mensaje-encriptado" name="mensaje-encriptado" 
+        placeholder="Ingresa el texto que desees encriptar o desencriptar">
+        <button onclick="copiarTexto()" class="btn-copiar"></button>
+      </div>
+    </div>
+    <p class="info"><img src="informacion.png" alt="informacion"> Solo letras minusculas sin caracteres extras </p>
+    <div class="contenedor-botones">
+      <button onclick="encriptar()" id="btn-encriptar">Encriptar Texto</button>
+      <button onclick="desencriptar()" id="btn-desencriptar">Desencriptar Texto</button>
+    </div>
+  </main>
+
+  <footer>
+    <p class="Copyright">&copy; Copyright Challenge Encriptador & Desencriptador - 2023</p>
+    <p>Andres Felipe Melo Avellaneda</p>
+    
+  </footer>
+</body>
+</html>
+
